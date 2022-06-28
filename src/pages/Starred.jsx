@@ -1,11 +1,11 @@
 import React from "react";
-import MultiPageLayout from "../components/MultiPageLayout";
+import MainPageLayout from "../components/MainPageLayout";
 
 const Starred = () => {
   return (
-    <MultiPageLayout>
+    <MainPageLayout>
       <h1>This is the starred page</h1>
-    </MultiPageLayout>
+    </MainPageLayout>
   );
 };
 
