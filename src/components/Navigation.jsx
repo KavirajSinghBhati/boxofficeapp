@@ -11,8 +11,8 @@ const LINKS = [
 const Navigation = () => {
   const location = useLocation();
   return (
-    <NavList>
-      <ul>
+    <div>
+      <NavList>
         {LINKS.map(link => (
           <li key={link.to}>
             <LinkStyled
@@ -23,8 +23,8 @@ const Navigation = () => {
             </LinkStyled>
           </li>
         ))}
-      </ul>
-    </NavList>
+      </NavList>
+    </div>
   );
 };
 

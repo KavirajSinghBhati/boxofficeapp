@@ -77,7 +77,7 @@ const Home = () => {
             label="Actors"
             value="people"
             onChange={onRadioChange}
-            checked={isShowsSearch}
+            checked={!isShowsSearch}
           />
         </div>
       </RadioInputsWrapper>
